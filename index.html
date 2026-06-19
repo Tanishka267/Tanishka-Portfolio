@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +10,19 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<script src="https://kit.fontawesome.com/your-kit.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+<!-- Animated Particles -->
+<div class="particles">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
 
 <header>
     <nav>
@@ -31,50 +40,102 @@
     </nav>
 </header>
 
+<!-- HERO -->
+
 <section class="hero">
-    <div class="hero-content">
 
-        <img src="profile.jpg" alt="Tanishka" class="profile-img">
+<div class="hero-content">
 
-        <h1>Hi, I'm <span>Tanishka Vatsa</span></h1>
+<img src="profile.jpg" alt="Tanishka" class="profile-img">
 
-        <h2 id="typing"></h2>
+<p class="hero-tag">
+AI • Cybersecurity • Cloud Computing
+</p>
 
-        <p>
-            Computer Science Engineering Student passionate about
-            Artificial Intelligence, Cybersecurity,
-            Cloud Computing and Software Development.
-        </p>
+<h1>
+Hi, I'm <span>Tanishka Vatsa</span>
+</h1>
 
-        <div class="hero-buttons">
-            <a href="#contact" class="btn">Contact Me</a>
-            <a href="resume.pdf" class="btn secondary">Download Resume</a>
-        </div>
+<h2 id="typing"></h2>
 
-    </div>
+<p class="hero-description">
+Computer Science Engineering student passionate about building secure applications,
+exploring Artificial Intelligence, Cloud Computing, and Cybersecurity while solving
+real-world problems through technology.
+</p>
+
+<div class="hero-buttons">
+<a href="#projects" class="btn">View Projects</a>
+<a href="resume.pdf" class="btn secondary">Download Resume</a>
+</div>
+
+<div class="social-links">
+<a href="https://github.com/Tanishka267" target="_blank">GitHub</a>
+<a href="https://www.linkedin.com/in/tanishka-vatsa-34b795324/" target="_blank">LinkedIn</a>
+<a href="https://leetcode.com/u/tanishkaaa04/" target="_blank">LeetCode</a>
+</div>
+
+</div>
+
 </section>
+
+<!-- STATS -->
+
+<section class="stats">
+
+<div class="stat-card">
+<h2>25+</h2>
+<p>LeetCode Problems</p>
+</div>
+
+<div class="stat-card">
+<h2>10+</h2>
+<p>Certifications</p>
+</div>
+
+<div class="stat-card">
+<h2>2+</h2>
+<p>Projects Built</p>
+</div>
+
+<div class="stat-card">
+<h2>2028</h2>
+<p>Graduation</p>
+</div>
+
+</section>
+
+<!-- ABOUT -->
 
 <section id="about" class="section">
-    <h2>About Me</h2>
 
-    <div class="card">
-        <p>
-            I am a B.Tech Computer Science Engineering student at
-            Amity University Punjab.
+<h2>About Me</h2>
 
-            I enjoy building secure applications, solving coding
-            problems, exploring cloud technologies, and learning
-            cybersecurity practices.
+<div class="card">
 
-            Currently pursuing a 45-day AI & Cybersecurity Internship
-            at C-DAC Mohali.
-        </p>
-    </div>
+<p>
+I am a B.Tech Computer Science Engineering student at Amity University Punjab with
+a strong interest in Artificial Intelligence, Cybersecurity, Cloud Computing,
+and Software Development.
+</p>
+
+<br>
+
+<p>
+Currently pursuing a 45-day AI & Cybersecurity Internship at C-DAC Mohali,
+where I am gaining practical experience in cybersecurity concepts, AI applications,
+Linux environments, networking, and security best practices.
+</p>
+
+</div>
+
 </section>
+
+<!-- SKILLS -->
 
 <section id="skills" class="section">
 
-<h2>Skills</h2>
+<h2>Technical Skills</h2>
 
 <div class="skills-grid">
 
@@ -92,7 +153,10 @@
 <div class="skill-card">Data Structures</div>
 
 </div>
+
 </section>
+
+<!-- EXPERIENCE -->
 
 <section id="experience" class="section">
 
@@ -106,13 +170,18 @@
 
 <p>
 Hands-on training in Artificial Intelligence,
-Cybersecurity, Linux environments,
-Networking Concepts and Security Tools.
+Cybersecurity Fundamentals,
+Linux Environments,
+Networking Concepts,
+Threat Analysis,
+and Security Tools.
 </p>
 
 </div>
 
 </section>
+
+<!-- PROJECTS -->
 
 <section id="projects" class="section">
 
@@ -122,30 +191,32 @@ Networking Concepts and Security Tools.
 
 <div class="project-card">
 
-<h3>Secure Login System</h3>
+<h3>🔐 Secure Login System</h3>
 
 <p>
-Developed using Python and Flask with password
-hashing, account lock mechanism and input validation.
+Built using Python and Flask with password hashing,
+account lock mechanism,
+input validation,
+and authentication security features.
 </p>
 
 <a href="https://github.com/Tanishka267/secure-login-system/tree/main" target="_blank">
-View Project
+View Project →
 </a>
 
 </div>
 
 <div class="project-card">
 
-<h3>Password Strength Checker</h3>
+<h3>🔑 Password Strength Checker</h3>
 
 <p>
-Python-based application using regex validation to
-classify password strength.
+Python-based application using regex validation to evaluate and classify
+password strength into Weak, Medium, and Strong categories.
 </p>
 
 <a href="https://github.com/Tanishka267/python-password-strength-checker" target="_blank">
-View Project
+View Project →
 </a>
 
 </div>
@@ -154,31 +225,28 @@ View Project
 
 </section>
 
+<!-- CERTIFICATIONS -->
+
 <section class="section">
 
 <h2>Certifications</h2>
 
-<div class="card">
+<div class="skills-grid">
 
-<ul>
-
-<li>AWS Cloud Foundations</li>
-<li>AWS Cloud Developing</li>
-<li>Cisco Cybersecurity Fundamentals</li>
-<li>NPTEL Python Programming</li>
-<li>Google Machine Learning Crash Course</li>
-<li>IBM Generative AI</li>
-<li>NVIDIA NLP Fundamentals</li>
-<li>Infosys Java Programming</li>
-<li>HCL GUVI DevOps Fundamentals</li>
-<li>Anthropic Claude 101</li>
-<li>MongoDB Vector Search</li>
-
-</ul>
+<div class="skill-card">AWS Cloud Foundations</div>
+<div class="skill-card">AWS Cloud Developing</div>
+<div class="skill-card">Cisco Cybersecurity</div>
+<div class="skill-card">Google ML Crash Course</div>
+<div class="skill-card">IBM Generative AI</div>
+<div class="skill-card">NVIDIA NLP</div>
+<div class="skill-card">Java Fundamentals</div>
+<div class="skill-card">DevOps Fundamentals</div>
 
 </div>
 
 </section>
+
+<!-- ACHIEVEMENTS -->
 
 <section class="section">
 
@@ -187,20 +255,58 @@ View Project
 <div class="card">
 
 <ul>
-
 <li>25+ Problems Solved on LeetCode</li>
-<li>Cybersecurity-focused Projects</li>
-<li>Cloud Computing Certifications</li>
-
+<li>Developed Security-Focused Applications</li>
+<li>AWS Cloud Certified</li>
+<li>Completed Multiple Industry Certifications</li>
+<li>AI & Cybersecurity Internship at C-DAC Mohali</li>
 </ul>
 
 </div>
 
 </section>
 
+<!-- WHY HIRE ME -->
+
+<section class="section">
+
+<h2>Why Hire Me?</h2>
+
+<div class="why-grid">
+
+<div class="card">
+Strong Python & Java Fundamentals
+</div>
+
+<div class="card">
+Hands-on Cybersecurity Projects
+</div>
+
+<div class="card">
+AWS Cloud Knowledge
+</div>
+
+<div class="card">
+Problem Solving Mindset
+</div>
+
+<div class="card">
+AI & Cybersecurity Internship Experience
+</div>
+
+<div class="card">
+Quick Learner & Team Player
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
 <section id="contact" class="section">
 
-<h2>Contact</h2>
+<h2>Let's Connect</h2>
 
 <div class="contact-links">
 
@@ -222,9 +328,29 @@ LeetCode
 
 </section>
 
+<!-- FOOTER -->
+
 <footer>
 
-<p>© 2026 Tanishka Vatsa</p>
+<h3>Tanishka Vatsa</h3>
+
+<p>
+Aspiring Software Engineer | AI & Cybersecurity Enthusiast
+</p>
+
+<div class="social-links">
+
+<a href="https://github.com/Tanishka267" target="_blank">GitHub</a>
+
+<a href="https://www.linkedin.com/in/tanishka-vatsa-34b795324/" target="_blank">LinkedIn</a>
+
+<a href="https://leetcode.com/u/tanishkaaa04/" target="_blank">LeetCode</a>
+
+</div>
+
+<p style="margin-top:20px;">
+© 2026 Tanishka Vatsa. All Rights Reserved.
+</p>
 
 </footer>
 
@@ -232,3 +358,4 @@ LeetCode
 
 </body>
 </html>
+```
